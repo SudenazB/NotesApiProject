@@ -41,5 +41,5 @@ class noteProcess:
             {"_id": ObjectId(id)},
             {"$set":  data}
         )
-        return "Note successfully update"
+        return "Note successfully updated"
 
