@@ -7,7 +7,7 @@ app.config.from_object(ConfigMongo)
 app.register_blueprint(routes)
 
 
-
+# main kısmı
 
 if __name__ == '__main__':
     app.run()
